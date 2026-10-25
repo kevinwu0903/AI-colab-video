@@ -1,0 +1,6 @@
+# 生成中間檔與大型影片不進版控
+mireva_ad/out/*
+!mireva_ad/out/chars/
+*.mp4
+*.wav
+*.zip

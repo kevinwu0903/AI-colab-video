@@ -1,0 +1,91 @@
+{
+ "_comment": "MIRÉVA 晨霧光透精華（虛構品牌）30 秒形象廣告，16:9。無台詞；品牌字卡與 AI 標示在後製疊加（H3 畫面一律不放字）。",
+ "title": "MIRÉVA 晨霧光透精華",
+ "repo_dir": "../..",
+ "voice_mode": "h3_ref",
+ "cine": "A high-end luxury skincare TV commercial still, shot on ARRI Alexa 35 with a Cooke 75mm lens at f/1.8. Soft diffused morning sunlight pours in from the side, a glowing warm rim light on hair and skin, luminous dewy healthy skin, creamy white, ivory and pale blush-pink palette with soft champagne highlights, clean airy elegant beauty look, shallow depth of field, very subtle fine grain. Full-frame image, NO black letterbox bars. ",
+ "set_sentence": "Use the location from <image{n}> as the set (same place, furniture, objects and light), but only as the location.",
+ "frame_suffix": " Only one person in the image at most. No text, no logo, no letters or writing on the bottle, no watermark, no captions.",
+ "h3": {
+  "style": "a premium cinematic skincare TV commercial, ARRI Alexa, 75mm lens, soft diffused morning light, luminous dewy skin, ivory and blush-pink palette",
+  "setting": "a bright minimalist ivory bedroom and vanity bathed in soft morning sunlight",
+  "soundscape": "Very quiet airy room tone, faint birdsong far outside, soft rustle of fabric. No voices.",
+  "camera": "The camera performs a very slow, smooth dolly push-in on a stabilized rig.",
+  "constraints": [
+   "No new people appear; the woman never speaks and her lips stay closed or gently smiling.",
+   "No captions, no logos and no readable text anywhere; the serum bottle stays blank without any label text.",
+   "Her face, hairstyle, earrings and white camisole stay exactly the same; skin stays smooth and natural, no distortion of hands or fingers."
+  ]
+ },
+ "chars": {
+  "mirei": {
+   "name": "Mirei",
+   "look": "Mirei, a young East Asian woman in her mid-twenties with a soft oval face and slightly rounded jawline, gentle almond-shaped dark brown eyes, thin see-through wispy bangs, dark brown-black medium-long hair with soft loose waves, half of it loosely tied back, bright natural light skin with a dewy glow, full soft natural pink lips, tiny gold stud earrings, wearing a simple white thin-strap camisole",
+   "voice_design": "A gentle, soft-spoken young woman in her mid-twenties with a calm, warm Taiwanese Mandarin voice.",
+   "voice_sample": "早安，今天的陽光很溫柔，我想慢慢地，好好照顧自己。",
+   "h3_voice": "a gentle, soft young woman's voice",
+   "edge_voice": "zh-TW-HsiaoChenNeural",
+   "sub_color": "&H00F0E6FF"
+  }
+ },
+ "masters": {
+  "bedroom": "A luxury skincare commercial wide still, shot on ARRI Alexa 35. An empty bright minimalist bedroom corner in the early morning: a large window on the LEFT side with sheer white linen curtains gently glowing in low warm sunlight, soft light beams in slightly hazy air, an ivory linen-covered bed with plush white pillows, a pale wooden side table with a small vase of white ranunculus flowers. Creamy white, ivory and blush-pink palette, airy and serene, shallow depth of field. No people. No text, no watermark, no logos.",
+  "vanity": "A luxury skincare commercial still, shot on ARRI Alexa 35 with a macro lens. Close view of an ivory travertine stone vanity top by a window in soft morning sunlight: exactly one elegant skincare serum bottle stands in the center, a slim cylindrical frosted glass dropper bottle with a soft blush-pink tint and a polished rose-gold dropper cap with a white rubber bulb, completely blank with no label and no text. A few scattered pale pink rose petals, soft water caustics and gentle shadows on the stone, a blurred sheer curtain in the background. Creamy white, ivory and blush-pink palette. No people. No text, no logo, no watermark.",
+  "lake": "A luxury skincare commercial wide still, shot on ARRI Alexa 35. A quiet sunny lakeside stone promenade in the late morning with green mountains across calm sparkling blue water, a few soft white clouds, warm gentle sunlight, a low stone railing along the water, slightly hazy airy atmosphere. Fresh, bright and serene, soft pastel color grade. No people. No text, no signs, no watermark."
+ },
+ "shots": [
+  {
+   "id": "S1", "refs": ["mirei"], "scene": ["bedroom", [0.0, 0.05, 0.75, 0.80]], "dur": 5.0,
+   "line": null,
+   "frame": "Medium close-up profile shot: the woman from <image1> sits on the ivory bed by the large window of the bedroom from <image2>, her face turned toward the window on the left side of the frame, eyes gently closed, warm low morning sunlight glowing on her cheek, eyelashes and the loose strands of her hair, sheer curtains glowing behind her. Calm, peaceful expression.",
+   "action": "Starting from <Picture 1>, the woman sits still by the window with her eyes closed, bathed in warm sunlight. She takes a slow, gentle breath, her shoulders rising slightly. Then she slowly opens her eyes and lifts her chin a little toward the light, the corners of her lips softening into a faint serene smile. A light breeze from the window lifts a few loose strands of her hair, which drift across her cheek and settle. She does not speak; her lips stay closed.",
+   "cut_in": 0.0, "cut_out": "full"
+  },
+  {
+   "id": "S2", "refs": ["mirei"], "scene": ["bedroom", [0.0, 0.10, 0.55, 0.70]], "dur": 4.0,
+   "line": null,
+   "camera": "The camera performs a very slow lateral slide from left to right on a slider, staying close.",
+   "frame": "Extreme beauty close-up of the face of the woman from <image1>, three-quarter angle, framed from her eyebrow to her lips, by the window of the bedroom from <image2>: luminous dewy flawless skin catching the warm morning sunlight, fine natural skin texture, long dark eyelashes, a soft highlight glowing on her cheekbone, eyes looking softly down. The window light comes from the left.",
+   "action": "Starting from <Picture 1>, the woman holds still in an extreme close-up with her eyes softly lowered. A band of warm golden sunlight slowly sweeps across her cheek from left to right, making her dewy skin glow. She slowly raises her eyes toward the lens and blinks once gently, and the soft highlight on her cheekbone shimmers as the light passes. She does not speak; her lips stay closed.",
+   "cut_in": 0.0, "cut_out": "full"
+  },
+  {
+   "id": "S3", "refs": [], "scene": ["vanity", [0.10, 0.0, 0.90, 1.0]], "dur": 5.0,
+   "line": null,
+   "camera": "The camera holds a static macro shot on a tripod.",
+   "frame": "Macro product close-up on the ivory travertine vanity from <image1>: a young woman's slender elegant hand with natural short nude-pink nails holds the slim frosted blush-pink glass dropper with its rose-gold cap above the open serum bottle; a single clear glistening golden drop of serum hangs from the dropper tip, catching the sunlight. Only the hand is visible, no face. Pale pink rose petals and soft water caustics on the stone.",
+   "action": "Starting from <Picture 1>, the hand holds the rose-gold dropper still above the bottle. The clear glistening drop of serum slowly swells at the dropper tip, sparkling in the sunlight, then falls in slow motion and lands on the fingertip of her other hand that slides into frame below it, spreading into a small shining bead. The fingertips gently rub together once, and the serum turns into a thin luminous sheen. The bottle stays still and blank.",
+   "cut_in": 0.0, "cut_out": "full"
+  },
+  {
+   "id": "S4", "refs": ["mirei"], "scene": ["bedroom", [0.05, 0.05, 0.75, 0.80]], "dur": 5.0,
+   "line": null,
+   "frame": "Beauty close-up, chest-up framing: the woman from <image1> sits by the window of the bedroom from <image2>, facing the camera at a slight three-quarter angle, the fingertips of both hands lightly touching her cheeks as she applies serum, eyes closed, a gentle content expression, warm sunlight glowing on her skin and hair, the window on the left side of the frame.",
+   "action": "Starting from <Picture 1>, the woman's fingertips rest lightly on both cheeks with her eyes closed. She gently pats her cheeks three times with her fingertips, then slowly sweeps both hands outward along her cheekbones and lowers them. She opens her eyes, looks into the lens, and breaks into a natural, radiant smile, tilting her head slightly to one side as her dewy skin glows in the sunlight. She does not speak.",
+   "cut_in": 0.0, "cut_out": "full"
+  },
+  {
+   "id": "S5", "refs": ["mirei"], "scene": ["lake", [0.10, 0.10, 0.90, 0.95]], "dur": 5.0,
+   "line": null,
+   "camera": "The camera performs a slow, smooth tracking move alongside her on a gimbal.",
+   "frame": "Medium shot outdoors on the sunny lakeside stone promenade from <image2>: the woman from <image1>, wearing a light ivory knit cardigan loosely over her white camisole, walks away from the camera along the low stone railing with green mountains and sparkling blue water behind her, glancing back over her shoulder toward the camera with a bright, carefree smile, a soft breeze in her hair, warm sunlight on her face.",
+   "action": "Starting from <Picture 1>, the woman walks slowly along the lakeside railing, glancing back over her shoulder. She turns her head further toward the camera and her smile grows into a bright, carefree laugh, her eyes crinkling. A gentle breeze lifts her wavy hair and the edge of her cardigan. She tucks a strand of hair behind her ear with her right hand while still smiling at the camera, the water sparkling behind her. She does not speak.",
+   "extra_constraints": ["Her face stays the same person; she keeps the ivory cardigan over the white camisole."],
+   "cut_in": 0.0, "cut_out": "full"
+  },
+  {
+   "id": "S6", "refs": [], "scene": ["vanity", [0.0, 0.0, 1.0, 1.0]], "dur": 5.0,
+   "line": null,
+   "camera": "The camera performs a very slow, smooth arc around the bottle combined with a gentle push-in.",
+   "frame": "Hero product packshot on the ivory travertine vanity from <image1>: the single slim frosted blush-pink glass serum bottle with a polished rose-gold dropper cap stands in the center-right of the frame, completely blank with no label, glowing in soft morning sunlight, delicate water caustics and pale pink rose petals around its base, a soft out-of-focus sheer curtain behind. Generous clean empty space on the left side of the frame. No hands, no people.",
+   "action": "Starting from <Picture 1>, the serum bottle stands perfectly still on the stone while soft sunlight slowly brightens across the scene. Gentle water caustics ripple and shimmer across the stone and the frosted glass, a soft highlight glides along the rose-gold cap, and a single pale pink rose petal drifts down in slow motion and lands beside the bottle. The empty space on the left stays clean. No people appear.",
+   "cut_in": 0.0, "cut_out": "full"
+  }
+ ],
+ "seeds": {},
+ "music": {
+  "caption": "Genre: elegant, airy luxury beauty commercial underscore, purely instrumental. Soft, dreamy, luminous and hopeful, gently building to a warm uplifting finish. BPM 76, key E major.\nVocal: NONE. No singing, no humming, no choir.\nArrangement: soft felt piano, shimmering celesta, airy string pads, light harp glissandos, subtle warm synth swells.",
+  "seeds": [7, 23, 51]
+ },
+ "mix": {"say_lead": 0.2, "default_tail": 0.55, "music_under_lines": 0.30, "music_bed_rms": 0.06, "target_lufs": -15.5}
+}
